@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Statistics</title>
+</head>
+<body>
+    <h1>URL Statistics</h1>
+    <h2>We Implemented a functions to track and display statistics about the usage of short URLs, 
+		such as the number of times a short URL has been accessed.</h2>
+    <pre th:text="${shortUrl}"></pre>
+    <p>Short URL:</p>
+    <pre th:text="${accessCount}"></pre>
+</body>
+</html>
